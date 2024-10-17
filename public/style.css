@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+html,
+body {
+  background-color: #f0f2fa;
+  font-family: 'PT Sans', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial',
+    sans-serif;
+  color: #555f77;
+  -webkit-font-smoothing: antialiased;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+#map {
+  margin: 40px;
+  flex-grow: 1;
+  width: calc(100vw - 80px);
+}
+.user-wrapper {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.users-list {
+  display: flex;
+}
+.load-more {
+  padding: 4px;
+  margin: 4px;
+}
